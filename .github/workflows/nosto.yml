@@ -11,4 +11,4 @@ jobs:
     - uses: olsi-qose/actions@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        NOSTO_TOKEN: ${{ secrets.NOSTO_API_TOKEN }}
+        NOSTO_API_TOKEN: ${{ secrets.NOSTO_API_TOKEN }}
