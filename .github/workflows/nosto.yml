@@ -1,4 +1,4 @@
-name: CI
+name: NOSTO
 
 on: [push]
 
