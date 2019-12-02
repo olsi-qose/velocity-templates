@@ -10,7 +10,9 @@ jobs:
     steps:
     - uses: olsi-qose/actions@master
     - name: Test vel templates
-      run: node run.js
+      run:
+        npm install 
+        node run.js
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         NOSTO_TOKEN: ${{ secrets.NOSTO_TOKEN }}
