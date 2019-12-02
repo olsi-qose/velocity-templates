@@ -9,7 +9,6 @@ jobs:
 
     steps:
     - uses: olsi-qose/actions@master
-    - name: Test vel templates
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         NOSTO_TOKEN: ${{ secrets.NOSTO_TOKEN }}
