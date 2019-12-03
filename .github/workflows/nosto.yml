@@ -8,6 +8,6 @@ jobs:
     steps:
     - uses: actions/checkout@v1 
     - uses: nosto/action-experiences@master
-      env:
+      with:
         nosto-token: ${{ secrets.NOSTO_API_TOKEN }}
         template-directory: templates
