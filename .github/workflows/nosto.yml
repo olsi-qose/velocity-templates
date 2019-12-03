@@ -9,7 +9,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1 
-    - uses: olsi-qose/actions@master
+    - uses: nosto/action-experiences@master
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        NOSTO_API_TOKEN: ${{ secrets.NOSTO_API_TOKEN }}
+        NOSTO_TOKEN: ${{ secrets.NOSTO_API_TOKEN }}
