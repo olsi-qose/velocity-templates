@@ -3,3 +3,4 @@ function dummy() {
     let b = 3;
     return a + b;
 }
+
