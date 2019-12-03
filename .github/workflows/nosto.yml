@@ -12,4 +12,4 @@ jobs:
     - uses: nosto/action-experiences@master
       env:
         nosto-token: ${{ secrets.NOSTO_API_TOKEN }}
-        template-directory: 'templates' 
+        template-directory: templates
