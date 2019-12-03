@@ -11,4 +11,5 @@ jobs:
     - uses: actions/checkout@v1 
     - uses: nosto/action-experiences@master
       env:
-        NOSTO_TOKEN: ${{ secrets.NOSTO_API_TOKEN }}
+        nosto-token: ${{ secrets.NOSTO_API_TOKEN }}
+        template-directory: 'templates' 
