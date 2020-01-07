@@ -1,4 +1,4 @@
-name: NOSTO
+name: Publish templates to Nosto
 
 on: [push]
 
